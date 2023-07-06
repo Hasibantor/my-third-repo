@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: rgb(46, 45, 45);
+    padding: 22px;
+    color: white;
+    /*ami joto kiso lekhbo ta white hobe*/
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+.logo-size{
+    width: 150px ;
+}
+.menu{
+    display: flex;
+}
+.spase{
+    margin-right: 10px;
+    font-size: 16px;
+   cursor: pointer ;
+}
+.spase:hover{
+    color: red;
+}
+/*menu code end*/
+
+.banner-photo-size{
+    width: 300px ;
+    display: flex;
+}
+.banner-main{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh ;
+    /*border: 2px solid aqua;*/
+    align-items: center ;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#000,#000);
+    color: white ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.taitle{
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+.pragraph-text{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button-color{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+.button-color:hover{
+    color: blue;
+
+}
+/*now 2nd part banner*/
