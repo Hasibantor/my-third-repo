@@ -1,0 +1,11 @@
+div{
+    box-sizing:  border-box;
+    border: 30px solid burlywood;
+    margin: 20px;
+    padding: 30px;
+    background-color: cadetblue;
+}
+.gin{
+    text-align: center;
+    text-align: bold ;
+}
