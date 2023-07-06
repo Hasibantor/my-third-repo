@@ -8,4 +8,5 @@ div{
 .gin{
     text-align: center;
     text-align: bold ;
+    text-underline-offset: 10px solid black;
 }
